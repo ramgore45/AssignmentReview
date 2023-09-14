@@ -1,0 +1,490 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+span{
+    color: red;
+}
+
+button{
+    width:175px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: rgb(10, 41, 239);
+    font-size: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    max-height: 120px;
+    width: 100%;
+}
+
+.header .logo{
+    margin-left: 30px;
+    height: 100px;
+    width: 250px;
+}
+
+.header .logo2{
+    height: 100px;
+    width: 100px;
+}
+
+.png{
+    height: 70px;
+    width: 70px;
+    margin-right: 8px;
+}
+
+.header-div{
+    display: flex;
+    align-items: center;
+}
+
+.grey{
+    color: grey;
+    font-size: 20px;
+}
+.bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navheader{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: skyblue;
+    color: white;
+    height: 65px;
+    width: 100%;
+    align-items:center ;
+}
+.navheader p{cursor: pointer;}
+.navheader input{
+    margin-left: 70px;
+    padding-left: 70px;
+    background-color: blue;
+    border: none;
+    color: white;
+    height: 100%;
+    width: 300px;
+    outline: none;
+}
+.navheader input::placeholder{color: white;}
+
+.poster{
+    background:linear-gradient(rgb(50, 50, 115), rgb(86, 86, 235));
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 50vh;
+    width: 100vw;
+}
+
+.poster img{
+    height: 100%;
+    width: 700px;
+    border-bottom-left-radius: 50%;
+    border-left: solid 15px blue;
+}
+
+.posterdetails{
+    margin: 50px;
+    font-size: 17px;
+    width: 35%;
+}
+
+.navmiddle{
+    padding: 0%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: solid 2px rgb(151, 147, 147);
+} 
+.navmiddle p{cursor: pointer;}
+.navmiddle p:focus{
+    text-decoration: underline blue;
+}
+
+.treatmentoverview{
+    display: flex;
+    padding: 45px;
+    border-bottom: dotted 2px rgb(75, 4, 240);
+}
+.treatmentoverview p{
+    font-size: 20px;
+    width: 85%;
+    color: rgb(84, 83, 83);
+}
+
+.sectionmiddle{
+    width: 100%;
+    display: flex;
+}
+
+.sectionForm{
+    margin: 5vw;
+    height: 79vh;
+    width:28vw;
+    position: sticky;
+    top: 10vh;
+    right: 0;
+    border-radius: 5%;
+    border: 2px solid darkgrey;
+}
+
+.sectionForm form{
+    display: flex;
+    flex-direction: column;
+    margin: 8%;
+    font-size: 20px;
+}
+.sectionForm form h1{
+    font-style: italic;
+    color: rgb(35, 35, 254);
+}
+.sectionForm form input, textarea{
+    outline: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.sectionForm form button{
+    width: 100%;
+    margin-top: 13px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+
+.sectiondetails{
+    width: 60vw;
+    position: relative;
+    font-size: 20px;
+    color: rgb(84, 83, 83);
+    margin-left: 45px;
+}
+.sectiondetails h1,h3{
+    color: black;
+}
+
+.sectiondetails div{
+    border-bottom: dotted 2px rgb(75, 4, 240);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.subdetail{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue;
+}
+
+.doctor{background-color: rgb(189, 200, 241);}
+.hospital{background-color: white;}
+
+.doctor , .hospital{
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.doctor h2, .hospital h2{
+    font-style: italic;
+    color: red;
+}
+.doctor-div, .hospital-div{
+    display: flex;
+    justify-content: space-around;
+    height: 55vh;
+    width: 70%;
+}
+.doctor-div div, .hospital-div div{
+    margin-top: 25px;
+    height: 54vh;
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+.doctor-div img , .hospital-div img{
+    height: 30vh;
+    width: 18vw;
+    padding: 10px;
+}
+
+.hospital h3{
+    margin: 100px;
+}
+
+
+.footer1{
+    margin-top: 60px;
+    background: linear-gradient(120deg,lightskyblue,blue);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer2section1{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.join{
+    top: -90px;
+    left: -50px;
+    position: absolute;
+    color: black;
+    background-color: white;
+    width: 15vw;
+    height: 15vh;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+}
+.join div{
+    display: flex;
+    justify-content:space-around;
+}
+
+.footer2section2{
+    display: flex;
+    justify-content:space-around;
+    padding: 30px;
+    font-size: 20px;
+}
+.social img{
+    height: 30px;
+    width: 30px;
+    border-radius: 7px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(73, 161, 190);
+}
+
+@media screen and (max-width:600px){
+
+    .header{
+        max-height: 70px;
+        width: 100%;
+    }
+    
+    .header .logo{
+        margin-left: 20px;
+        height: 50px;
+        width: 100px;
+    }
+    
+    .header .logo2{
+        height: 50px;
+        width: 50px;
+    }
+    .firstChild{
+        display: none;
+    }
+    
+    .png{
+        height: 30px;
+        width: 30px;
+        margin: none;
+    }
+    
+    .grey{
+        font-size: 15px;
+    }
+    .bold{
+        font-size: 15px;
+    }
+
+
+    .navheader{
+        padding-left:10px ;
+        padding-right: 10px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: white;
+        height: fit-content;
+    }
+    .navheader p{
+        margin-top: none;
+        margin-right: 25px;
+        font-size: 15px;
+    }
+    .navheader input{
+        margin-right: 15px;
+        padding-left:30px;
+        height: 70%;
+        width: 150px;
+    }
+
+
+    .poster{
+        font-size: 15px;
+        height: 40vh;
+    }
+    .poster img{
+        width: 100%;
+    }
+    .posterdetails{
+        margin: 15px;
+        font-size: 13px;
+        width: 50%;
+    }
+    .navmiddle{
+        font-size: 15px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .navmiddle p{margin-right: 25px;}
+
+    .treatmentoverview{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        border-bottom: dotted 2px rgb(75, 4, 240);
+    }
+    .treatmentoverview p{
+        font-size: 12px;
+        width: 100%;
+        color: rgb(84, 83, 83);
+    }
+    .sectionmiddle{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectiondetails{
+        width: 100%;
+        position: relative;
+        color: rgb(84, 83, 83);
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .sectiondetails h1,h3{
+        color: black;
+    }
+    
+    .sectiondetails div{
+        border-bottom: dotted 2px rgb(75, 4, 240);
+        padding-bottom: 15px;
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+    
+    .subdetail{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 60px;
+        border-bottom: 2px solid blue;
+        border-top: 2px solid blue;
+    }
+
+    .sectionForm{
+        margin: 5%;
+        height: 75vh;
+        width:80%;
+        right: 0;
+        border-radius: 5%;
+        border: 2px solid darkgrey;
+    }
+
+    .doctor , .hospital{
+        height:60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .doctor-div{
+        width: 100%;
+        
+    }
+    .doctor-div div, .hospital-div div{
+        height: 30vh;
+        font-size: 12px;
+    }
+    .doctor-div img , .hospital-div img{
+        height: 25vh;
+        width: 15vw;
+        padding: 10px;
+    }
+
+    .hospital h3{
+        margin-top: 50px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 15px;
+    }
+
+    .footer1{
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .footer2section1{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-size: 12px;
+        padding:30px;
+    }
+    .medicaldestination
+    {margin-top: 20px;}
+    .join{
+        top: 55px;
+        left: 250px;
+        width: 34vw;
+        height: 12vh;
+        font-size: 12px;
+    }
+    
+    .footer2section2{
+        flex-wrap: wrap;
+        justify-content:space-between;
+        padding: 30px;
+        font-size: 12px;
+    }
+    .contact{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+    }
+    
+    .copyright{
+        font-size: 17px;
+    }
+}
